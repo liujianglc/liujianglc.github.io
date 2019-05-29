@@ -1,32 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>刘江的Blog</title>
   
   
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-09-14T14:51:34.188Z</updated>
+  <updated>2019-05-29T14:15:20.573Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>Liujiang</name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Mac VSCode 更新失败</title>
+    <link href="http://yoursite.com/2019/05/29/Mac-VSCode-%E6%9B%B4%E6%96%B0%E5%A4%B1%E8%B4%A5/"/>
+    <id>http://yoursite.com/2019/05/29/Mac-VSCode-更新失败/</id>
+    <published>2019-05-29T14:14:27.000Z</published>
+    <updated>2019-05-29T14:15:20.573Z</updated>
+    
+    <content type="html"><![CDATA[<p>Could not create temporary directory: 权限被拒绝</p><p>解决方案<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo chown $USER ~/Library/Caches/com.microsoft.VSCode.ShipIt/</span><br></pre></td></tr></table></figure></p><p>重启之后，再更新</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Could not create temporary directory: 权限被拒绝&lt;/p&gt;
+&lt;p&gt;解决方案&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>测试</title>
-    <link href="http://yoursite.com/2018/09/14/%E6%B5%8B%E8%AF%95/"/>
-    <id>http://yoursite.com/2018/09/14/测试/</id>
-    <published>2018-09-14T14:10:44.000Z</published>
-    <updated>2018-09-14T14:51:34.188Z</updated>
+    <link href="http://yoursite.com/2019/05/29/%E6%B5%8B%E8%AF%95-1/"/>
+    <id>http://yoursite.com/2019/05/29/测试-1/</id>
+    <published>2019-05-29T14:09:40.000Z</published>
+    <updated>2019-05-29T14:12:29.641Z</updated>
     
     <summary type="html">
     
     </summary>
     
+    
+      <category term="test,abc" scheme="http://yoursite.com/tags/test-abc/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>test</title>
+    <link href="http://yoursite.com/2019/04/18/test/"/>
+    <id>http://yoursite.com/2019/04/18/test/</id>
+    <published>2019-04-18T13:54:19.000Z</published>
+    <updated>2019-05-29T14:11:41.451Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h3>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;测试&quot;&gt;&lt;a href=&quot;#测试&quot; class=&quot;headerlink&quot; title=&quot;测试&quot;&gt;&lt;/a&gt;测试&lt;/h3&gt;
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>测试</title>
+    <link href="http://yoursite.com/2018/09/15/%E6%B5%8B%E8%AF%95/"/>
+    <id>http://yoursite.com/2018/09/15/测试/</id>
+    <published>2018-09-15T14:16:44.000Z</published>
+    <updated>2018-09-15T14:42:03.954Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h3 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h3><h4 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br><span class="line">$ <span class="built_in">test</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+      <category term="前端" scheme="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="前端,测试" scheme="http://yoursite.com/tags/%E5%89%8D%E7%AB%AF-%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
