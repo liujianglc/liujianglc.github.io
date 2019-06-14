@@ -8,15 +8,20 @@
     <meta http-equiv="Cache-Control" content="no-siteapp">
     <meta http-equiv="Cache-Control" content="no-transform">
     <meta name="renderer" content="webkit|ie-comp|ie-stand">
-    <meta name="apple-mobile-web-app-capable" content="刘江的Blog">
+    <meta name="apple-mobile-web-app-capable" content="Hexo">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="format-detection" content="telephone=no,email=no,adress=no">
     <meta name="browsermode" content="application">
     <meta name="screen-orientation" content="portrait">
+    <meta name="theme-version" content="1.2.3">
+    <meta name="root" content="/">
     <link rel="dns-prefetch" href="http://yoursite.com">
     <!--SEO-->
 
+    <meta name="keywords" content="前端,测试">
 
+
+    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any ...">
 
 
 
@@ -24,13 +29,14 @@
 <meta name="google" content="all">
 <meta name="googlebot" content="all">
 <meta name="verify" content="all">
+
     <!--Title-->
 
 
-<title>测试 | 刘江的Blog</title>
+<title>测试 | Hexo</title>
 
 
-    <link rel="alternate" href="/atom.xml" title="刘江的Blog" type="application/atom+xml">
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
 
 
     <link rel="icon" href="/favicon.ico">
@@ -73,9 +79,9 @@
 <![endif]-->
 
 <body>
-    <header class="main-header" style="background-image:url(http://7xpw2b.com1.z0.glb.clouddn.com/hexo-sinppet/img/banner.jpg)">
+    <header class="main-header" style="background-image:url(http://snippet.shenliyang.com/img/banner.jpg)">
     <div class="main-header-box">
-        <a class="header-avatar" href="/" title="Liujiang">
+        <a class="header-avatar" href="/" title="John Doe">
             <img src="/img/avatar.jpg" alt="logo头像" class="img-responsive center-block">
         </a>
         <div class="branding">
@@ -94,7 +100,7 @@
                     <span class="sr-only"></span>
                         <i class="fa fa-bars"></i>
                     </span>
-                    <a class="navbar-brand" href="http://yoursite.com">刘江的Blog</a>
+                    <a class="navbar-brand" href="http://yoursite.com">Hexo</a>
                 </div>
                 <div class="collapse navbar-collapse" id="main-menu">
                     <ul class="menu">
@@ -139,28 +145,21 @@
         </h1>
         <div class="post-meta">
     
-    
-    <span class="categories-meta fa-wrap">
-        <i class="fa fa-folder-open-o"></i>
-        <a href="/categories/前端">
-            前端
-        </a>
-    </span>
+        <span class="categories-meta fa-wrap">
+            <i class="fa fa-folder-open-o"></i>
+            <a class="category-link" href="/categories/前端/">前端</a>
+        </span>
     
 
     
-    <span class="fa-wrap">
-        <i class="fa fa-tags"></i>
-        <span class="tags-meta">
-            
+        <span class="fa-wrap">
+            <i class="fa fa-tags"></i>
+            <span class="tags-meta">
                 
-                    <a href="/tags/前端,测试" title="前端,测试">
-                        前端,测试
-                    </a>
+                    <a class="tag-link" href="/tags/前端-测试/">前端,测试</a>
                 
-            
+            </span>
         </span>
-    </span>
     
 
     
@@ -172,7 +171,6 @@
         
     
 </div>
-
             
             
     </div>
@@ -189,7 +187,7 @@
 <p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 
     </div>
-
+    
     <div class="post-footer">
         <div>
             
@@ -204,23 +202,18 @@
 
 <div class="article-nav prev-next-wrap clearfix">
     
-        <a href="/2019/04/18/test/" class="pre-post btn btn-default" title="test">
+        <a href="/2019/06/14/hello-world/" class="pre-post btn btn-default" title="Hello World">
             <i class="fa fa-angle-left fa-fw"></i><span class="hidden-lg">上一篇</span>
-            <span class="hidden-xs">test</span>
+            <span class="hidden-xs">Hello World</span>
         </a>
     
-    
-        <a href="/2018/09/13/hello-world/" class="next-post btn btn-default" title="Hello World">
-            <span class="hidden-lg">下一篇</span>
-            <span class="hidden-xs">Hello World</span><i class="fa fa-angle-right fa-fw"></i>
-        </a>
     
 </div>
 
 
     <div id="comments">
         
-    
+	
     <div id="vcomments" class="valine"></div>
     <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
 <script src="/assets/valine.min.js"></script>
@@ -233,7 +226,7 @@
             appKey: 'erIpQac4azoCmgfBB7Dl9maa',
             placeholder: '说点什么吧',
             notify: false,
-            verify: false,
+            verify: true,
             avatar: 'mm',
             meta: 'nick,mail'.split(','),
             pageSize: '10',
